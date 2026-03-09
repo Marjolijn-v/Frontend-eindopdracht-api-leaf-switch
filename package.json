@@ -57,6 +57,11 @@
           "required": true
         },
         {
+          "name": "userId",
+          "type": "reference:users",
+          "required": true
+        },
+        {
           "name": "name",
           "type": "string",
           "required": true,
@@ -225,8 +230,16 @@
         "location": "Groningen",
         "joinDate": "2026-01-15"
       }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "content": "Beautiful plant! Would love to switch it!",
+        "plantId": 1,
+        "userId": 2,
+        "createdAt": "2026-02-03"
+      }
     ]
   }
 }
 
-//werkt het?
