@@ -98,7 +98,7 @@
       }
     },
     {
-      "name": "comments",
+      "name": "messages",
       "fields": [
         {
           "name": "id",
