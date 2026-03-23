@@ -118,6 +118,16 @@
           "required": true
         },
         {
+          "name": "nameSender",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "emailSender",
+          "type": "string",
+          "required": true
+        },
+        {
           "name": "userId",
           "type": "reference:users",
           "required": true
